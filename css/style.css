@@ -1,0 +1,555 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+#form_center{
+    display: flex;
+    justify-content: center;
+}
+#form{
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    width: 25%;
+    background-color: whitesmoke;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Roboto';
+}
+#form label{
+    text-align: center;
+}
+#form input{
+    width: 90%;
+    height: 20px;
+    margin: 20px;
+}
+#form button{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 30px;
+    cursor: pointer;
+    color: black;
+    border-radius: 5px;
+    background-color: gold;
+    font-weight: 500;
+    border-style: none;
+    transition: 0.5s;
+}
+#form button:hover{
+    background-color: #363636;
+    color: gold;
+    transition: 0.5s;
+}
+.home_banner{
+    background: url('../images/banner-BPM-2021-03@2x.png');
+    background-size: cover;
+    width: 100%;
+    height: 820px;
+}
+
+.home_banner .group7{
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+}
+.home_banner .group7 img{
+    width: 409px;
+    height: 222px;
+    opacity: 1;
+}
+/**font: normal normal medium 40px/48px "Roboto", sans-serif; **/
+.home_banner .title_banner{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 30px;
+}
+.home_banner .title_banner2{
+    display: block;
+    margin: auto;
+    width: 35%;
+    text-align: center;
+    font-size: 35px;
+    line-height: 41px;
+    font-weight: 300;
+    font-family: 'Roboto';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.home_banner .apresentation{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.home_banner .apresentation a{
+    text-decoration: none;
+}
+.home_banner .apresentation img{
+    width: 28px;
+    height: 26px;
+    margin-top: 10px;
+    margin-left: 8px;
+    opacity: 1;
+}
+.home_banner .apresentation button{
+    display: flex;
+    background: #DF4B62 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 6px; 
+    opacity: 1;
+    width: 302px;
+    height: 48px;
+    transition: 0.75s;
+}
+.home_banner .apresentation button:hover{
+    box-shadow: 0 0 30px;
+    background-color: #363636;
+    cursor: pointer;
+    transition: 0.75s;
+}
+.home_banner .apresentation button p{
+    margin-left: 12px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 8px;
+    font-family: 'Roboto';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.description{
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    width: 1366px;
+}
+.description_grid_config{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 540px;
+}
+.description .description_grid_config .text_description{
+    text-align: left;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+    font-family: 'Roboto';
+    letter-spacing: 0px;
+    color: #707070;
+}
+.description .description_grid_config .text_description strong{
+    font-weight: 500;
+}
+.description .description_grid_config .video_description{
+    padding-top: 30px;
+    border-radius: 20px;
+    margin-left: 15px;
+} 
+.title_screenshots{
+    text-align: center;
+    font-size: 35px;
+    line-height: 42px;
+    font-family: 'Roboto';
+    letter-spacing: 0px;
+    color: #2A5AB4;
+    opacity: 1;
+}
+.screenshots_slider{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    width: 918px;
+    padding-top: 50px;
+}
+.screenshots_slider .image_left img{
+
+    width: 918px;
+    height: 600px;
+    margin-right: 20px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.screenshots_slider .image_right img{
+
+    width: 90%;
+    height: auto;
+    margin-left: 20px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.screenshots_slider .image_left, .screenshots_slider .image_right p{
+    text-align: center;
+    font-size: 22px;
+    line-height: 25px;
+    font-family: 'Roboto';
+    letter-spacing: 0px;
+    color: #535353;
+    opacity: 1;
+}
+
+.left_slide, .right_slide{
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+
+.apresentation_end{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+
+}
+.apresentation_end a{
+    text-decoration: none;
+}
+.apresentation_end img{
+    width: 28px;
+    height: 26px;
+    margin-top: 10px;
+    margin-left: 8px;
+    opacity: 1;
+}
+.apresentation_end button{
+    display: flex;
+    background: #DF4B62 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 6px; 
+    opacity: 1;
+    width: 282px;
+    height: 48px;
+    transition: 0.75s;
+}
+.apresentation_end button:hover{
+    box-shadow: 0 0 30px;
+    background-color: #363636;
+    cursor: pointer;
+    transition: 0.75s;
+}
+.apresentation_end button p{
+    margin-left: 12px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Roboto';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.challenge{
+    display: block;
+    margin: auto;
+    width: 1900px;
+    margin-top: 58px;
+    background: url('../images/o-desafio2@2x.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 652px;
+}
+.description_challenge{
+    padding-top: 64px;
+    margin-left: 311px;
+    margin-right: 983px;
+    padding-bottom: 69px;
+}
+.description_challenge .title_challenge{
+    text-align: left;
+    font-size: 35px;
+    line-height: 42px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    letter-spacing: 0px;
+    padding-bottom: 10px;
+    color: #2A5AB4;
+    opacity: 1;
+}
+.description_challenge .text_challenge{
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: 'Roboto';
+    letter-spacing: 0px;
+    color: #474646;
+}
+.feature_articles .title_feature_articles{
+    text-align: center;
+    font-size: 35px;
+    line-height: 42px;
+    font-family: 'Roboto';
+    letter-spacing: 0px;
+    color: #2A5AB4;
+    opacity: 1;
+    padding: 50px;
+}
+.feature_articles .items_feature_articles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    width: 1280px;
+}
+.feature_articles .items_feature_articles .item{
+    margin: 10%;
+}
+
+.feature_articles .items_feature_articles .item img{
+    width: 100%;
+}
+.feature_articles .items_feature_articles .item #play_now{
+    display: block;
+    margin: auto;
+    width: 200px;  
+    height: 40px; 
+    background-color: transparent;
+    border-style: solid;
+    border-color: rgb(255, 88, 27);
+    color: rgb(255, 88, 27);
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    transition: 0.5s;
+}
+.feature_articles .items_feature_articles .item #play_now:hover{
+    cursor: pointer;
+    background-color: #363636;
+    color: white;
+    border-color: white;
+    transition: 0.5s;
+}
+.feature_articles .items_feature_articles .item a{
+    text-decoration: none;
+    font-size: 14px;
+    color: gray;
+    transition: 0.25s;
+}
+.feature_articles .items_feature_articles .item p{
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 60em) {
+
+#form{
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    width: 90%;
+    background-color: whitesmoke;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Roboto';
+}
+.home_banner{
+    height: 600px;
+}
+.home_banner .group7{
+    padding-top: 20px;
+}
+.home_banner .group7 img{
+    width: 308px;
+    height: 166px;
+}
+.home_banner .title_banner{
+    font-size: 28px;
+    line-height: 38px;
+    padding: 30px;
+}
+.home_banner .title_banner2{
+    display: block;
+    margin: auto;
+    width: 85%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: 'Roboto';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.description{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    width: 90%;
+}
+.description_grid_config{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.description .description_grid_config .text_description{
+    display: block;
+    margin: auto;
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Roboto';
+    letter-spacing: 0px;
+    color: #707070;
+}
+.description .description_grid_config .text_description strong{
+    font-weight: 500;
+}
+.description .description_grid_config .video_description{
+    border-style: none;
+    margin-right: 20px;
+}
+.description .description_grid_config .video_description iframe{
+    width: 100%;
+    height: 300px;
+    border-radius: none;
+    margin: 0;
+} 
+
+.title_screenshots{
+    margin-top: 250px;
+    text-align: center;
+    font-size: 35px;
+    line-height: 42px;
+    font-family: 'Roboto';
+    letter-spacing: 0px;
+    color: #2A5AB4;
+    opacity: 1;
+}
+.screenshots_slider{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    width: 90%;
+    padding-top: 50px;
+}
+.screenshots_slider .image_left img{
+    margin: auto;
+    width: 90%;
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.screenshots_slider .image_right img{
+    display: block;
+    margin: auto;
+    width:90%;
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.screenshots_slider .image_left, .screenshots_slider .image_right p{
+    text-align: center;
+    font-size: 22px;
+    line-height: 25px;
+    font-family: 'Roboto';
+    letter-spacing: 0px;
+    color: #535353;
+    opacity: 1;
+}
+
+.challenge{
+    display: block;
+    margin: auto;
+    width: 100%;
+    margin-top: 58px;
+    background: url('../images/o-desafio2@2x.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 652px;
+}
+.description_challenge{
+    padding-top: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.description_challenge .title_challenge{
+    text-align: left;
+    font-size: 24px;
+    line-height: 10px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #2A5AB4;
+    opacity: 1;
+}
+.description_challenge .text_challenge{
+    text-align: left;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: 'Roboto';
+    letter-spacing: 0px;
+    color: #474646;
+}
+
+.feature_articles .title_feature_articles{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 35px;
+    line-height: 42px;
+    font-family: 'Roboto';
+    letter-spacing: 0px;
+    color: #2A5AB4;
+    opacity: 1;
+    padding: 0;
+}
+.feature_articles .items_feature_articles{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    width: 90%;
+}
+.feature_articles .items_feature_articles .item{
+    margin: 10%;
+}
+
+.feature_articles .items_feature_articles .item img{
+    width: 100%;
+}
+.feature_articles .items_feature_articles .item #play_now{
+    display: block;
+    margin: auto;
+    width: 200px;  
+    height: 40px; 
+    background-color: transparent;
+    border-style: solid;
+    border-color: rgb(255, 88, 27);
+    color: rgb(255, 88, 27);
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    transition: 0.5s;
+}
+.feature_articles .items_feature_articles .item #play_now:hover{
+    cursor: pointer;
+    background-color: #363636;
+    color: white;
+    border-color: white;
+    transition: 0.5s;
+}
+.feature_articles .items_feature_articles .item a{
+    text-decoration: none;
+    font-size: 14px;
+    color: gray;
+    transition: 0.25s;
+}
+.feature_articles .items_feature_articles .item a:hover{
+    transition: 0.25s;
+}
+.feature_articles .items_feature_articles .item p{
+    text-align: center;
+    margin-top: 30px;
+}
+}
